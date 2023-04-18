@@ -25,3 +25,16 @@ def practice():
     """returns completed flash card"""
     return render_template('practice.html')
 
+
+
+@app.route('/signup')
+def signUp():
+    """signs up a user"""
+    return render_template('signup.html')
+
+@app.route('/login')
+def logIn():
+    """logs in a user"""
+    return render_template('signup.html')
+
+
